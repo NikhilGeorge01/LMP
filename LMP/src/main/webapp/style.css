@@ -1,0 +1,70 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/lib.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #4e342e;
+}
+
+/* Container styling */
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: rgba(255, 248, 240, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 400px;
+    overflow: hidden;
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: #4e342e;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #4e342e;
+}
+
+/* Input styling */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d7ccc8;
+    border-radius: 5px;
+    background-color: #f9f3eb;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #795548;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5d4037;
+}
+
+/* Switch button styling */
+.switch-btn {
+    margin-top: 10px;
+    text-align: center;
+}
